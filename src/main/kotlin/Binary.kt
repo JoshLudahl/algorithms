@@ -8,7 +8,7 @@ class BinarySearch(private var element: Int) {
             var mid = (low + high)/2
             var guess = list[mid]
             if (guess == element) {
-                println("$element is in list!!!!")
+                println("$element is in the list!!!!")
                 return true
             }
             else if (guess > element) {
@@ -18,6 +18,7 @@ class BinarySearch(private var element: Int) {
                 low = mid + 1
             }
         }
+        println("$element is not in the list!")
         return false
     }
 }
