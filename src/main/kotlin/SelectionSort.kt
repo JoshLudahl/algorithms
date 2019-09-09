@@ -14,6 +14,7 @@ class SelectionSort {
         return smallestIndex
     }
 
+    //  Sort the array of integers
     fun sortArray(list: MutableList<Int>): List<Int> {
         var newArray = mutableListOf<Int>()
 
