@@ -34,4 +34,5 @@ fun main() {
     var sortedList = selectionSort.sortArray(list)
 
     println("Post Sorted: $sortedList")
+
 }
