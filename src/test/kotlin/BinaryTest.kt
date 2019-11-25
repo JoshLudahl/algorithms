@@ -31,4 +31,9 @@ internal class BinaryTest {
         assertEquals(true, binary.intSearch(listOf(4, 5, 6)))
     }
 
+    @Test
+    fun `not in list`() {
+        assertEquals(false, binary.intSearch(listOf(3, 4, 7, 8)))
+    }
+
 }
