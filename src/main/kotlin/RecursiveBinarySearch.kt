@@ -11,7 +11,7 @@ class RecursiveBinarySearch {
         if (list[middle] == target) return true
 
         if (list[middle] > target) recursiveBinarySearch(list, target)
-
+        //  Handle this.
         return false
     }
 
