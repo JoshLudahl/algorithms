@@ -26,25 +26,4 @@ class RecursiveBinarySearchTest {
         assertEquals(true, search.recursiveBinarySearch(listOf(1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12), target))
         assertEquals(false, search.recursiveBinarySearch(listOf(1, 2, 3, 7, 8), target))
     }
-
-    @Test
-    fun `odd elements first half`() {
-        //TODO
-    }
-
-    @Test
-    fun `odd elements second half`() {
-        //TODO
-    }
-
-    @Test
-    fun `even elements first half`() {
-        //TODO
-    }
-
-    @Test
-    fun `even elements second half`() {
-        //TODO
-    }
-
 }
