@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test
+import sort.SelectionSort
 import kotlin.test.assertEquals
 
 internal class SelectionSortTest {

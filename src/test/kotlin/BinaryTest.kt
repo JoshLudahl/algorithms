@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test
+import search.BinarySearch
 
 import kotlin.test.assertEquals
 
