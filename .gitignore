@@ -5,6 +5,7 @@
 
 # IDEA config files
 .idea/
+/build
 
 # ignore node/grunt dependency directories
 node_modules/
