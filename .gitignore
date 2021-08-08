@@ -6,6 +6,7 @@
 # IDEA config files
 .idea/
 /build
+.gradle/
 
 # ignore node/grunt dependency directories
 node_modules/
