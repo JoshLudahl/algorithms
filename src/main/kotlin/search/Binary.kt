@@ -5,7 +5,7 @@ class BinarySearch(private var element: Int) {
         var low = 0
         var high = list.size-1
         while (low <= high) {
-            val mid = (low + high) / 2
+            val mid = low + (high - low) / 2
             val guess = list[mid]
             if (guess == element) {
                 println("$element is in the list!!!!")
